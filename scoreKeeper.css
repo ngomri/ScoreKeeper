@@ -1,0 +1,53 @@
+html, body {
+    background-color: #959DFF;
+    font-family: 'Montserrat', sans-serif;
+    align-content: center;
+    color: #40468C;
+    height: 100%;
+    position: relative;
+}
+
+h1 {
+}
+div {
+    text-align: center;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#circle {
+    
+background: #FF959D;
+border-radius: 10px;
+width: 500px;
+height: 400px;
+}
+
+input {
+    text-align: center;
+    width: 170px;
+    height: 30px;
+    background-color: transparent;
+    border: 2px solid #40468C;
+    color: #40468C;
+    border-radius: 10px;
+    font-size: large;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+button {
+    height: 40px;
+    width: 80px;
+    border-radius: 10px;
+    border: 2px solid #40468C;
+    background-color:transparent;
+    color: #40468C;
+    font-size: small;
+    font-family: 'Montserrat', sans-serif;
+}
+button:focus {outline:0;}
+input:focus {outline:0;}
