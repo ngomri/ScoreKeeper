@@ -24,6 +24,7 @@ background: #FF959D;
 border-radius: 10px;
 width: 500px;
 height: 400px;
+box-shadow: 5px 10px;
 }
 
 input {

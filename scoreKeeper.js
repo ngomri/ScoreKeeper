@@ -4,6 +4,7 @@ var p2Button = document.getElementById("p2");
 var firstP = document.getElementById("firstP");
 var secondP = document.getElementById("secondP");
 
+var buttons = document.querySelectorAll("button");
 var numInput = document.querySelector("input");
 var winningScoreDisplay = document.getElementById("winningNumber");
 
@@ -57,3 +58,13 @@ numInput.addEventListener("change",function() {
     winningScore = Number(this.value);
     resetNum();
 })
+
+for(var i = 0; i < buttons.length; i++){
+	buttons[i].addEventListener("mouseover", function(){
+		this.style.backgroundColor = "#959DFF";
+	});
+
+	buttons[i].addEventListener("mouseout", function(){
+		this.style.backgroundColor = "transparent";
+    });
+}
