@@ -49,7 +49,7 @@ input {
     border-radius: 10px;
     font-size: xx-large;
     font-family: 'Montserrat', sans-serif;
-
+    cursor: pointer;
 }
 
 button {
@@ -61,6 +61,7 @@ button {
     color: #40468C;
     font-size: x-large;
     font-family: 'Montserrat', sans-serif;
+    cursor: pointer;
 }
 
 button:focus {outline:0;}
